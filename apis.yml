@@ -1,22 +1,80 @@
 aid: vilya
 name: Vilya
-description: Vilya is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vilya is a computational drug-design biotechnology company pioneering the de novo
+  design of macrocycles — entirely new therapeutic molecules that do not exist in
+  nature. Spun out of the Institute for Protein Design and built on Nobel Prize-winning
+  computational protein-design research from scientific founder Dr. David Baker, Vilya
+  uses AI-driven generative models to generate, predict, and validate novel, chemically
+  diverse macrocycles in silico. Its pipeline advances orally bioavailable macrocycles
+  that aim to combine the target selectivity of biologics with the convenience of small-
+  molecule pills, opening previously untreatable disease areas across oncology and
+  immunology (including an integrin alpha4beta7 program for IBD). Vilya is a private
+  therapeutics company; it publishes no public developer API, SDKs, or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vilya.ai/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/vilya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - menlo-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-lead-investor: ARCH Venture Partners
+x-scientific-founder: David Baker (Institute for Protein Design)
+x-ceo: Cyrus Harmon
+x-sector: biotechnology / computational drug discovery
+x-api-surface: none
+x-tier: profiled
+x-tier-reason: real-company-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Computational Biology
+- Macrocycles
+- Therapeutics
+- Life Sciences
+- Protein Design
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vilya-domain-security.yml
+- type: Website
+  url: https://vilya.ai
+- type: About
+  url: https://vilya.ai/about
+- type: Blog
+  url: https://vilya.ai/news
+- type: Careers
+  url: https://vilya.ai/careers
+- type: Support
+  url: https://vilya.ai/contact
+- type: PrivacyPolicy
+  url: https://vilya.ai/privacy
+- type: TermsOfService
+  url: https://vilya.ai/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vilyatx/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
