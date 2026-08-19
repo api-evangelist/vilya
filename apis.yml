@@ -35,7 +35,7 @@ x-sector: biotechnology / computational drug discovery
 x-api-surface: none
 x-tier: profiled
 x-tier-reason: real-company-no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
